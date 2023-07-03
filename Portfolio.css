@@ -1,0 +1,396 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+body{
+    background-color: #0E0E16;
+    height: 8000px;
+    width: 1200px;
+}
+/* comandos */
+.comandos{
+    height: 600px;
+    width: 60px;
+    background-color: white;
+    border-radius: 40px;
+    margin-left: 1750px;
+    position:fixed;
+    text-align: center;
+}
+.icones{
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: white;
+    height: 50px;
+    width: 50px; 
+
+}
+.icones:hover{
+    box-shadow: 0 0 5px #9B51E0,
+    0 0 25px #9B51E0, 0 0 50px #9B51E0,
+    0 0 100px #9B51E0, 0 0 200px #9B51E0;
+}
+
+/* Aprecentacao de quem eu sou */ 
+.quem_sou{
+    background-color: white;
+    width: 1500px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 100px;
+    border-radius: 20px;
+    display: flex;
+}
+.apresentacao{
+    padding: 30px;
+    color: #2B2B2B;
+    font-family: Gotham Black;
+    width: 750px;
+    height: 600px;
+}
+.texto_titulo{
+    display: flex-start;
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 900;
+}
+.texto_apresentacao{
+    font-weight: 900;
+    line-height: 150.6%;
+    font-size: 16px;
+}
+.foto_apresentacao{
+    margin-left: 50px;
+    width: 700px;
+    height: 600px;
+    border-radius: 0px 20px 20px 0px;
+}
+.texto_roxo{
+    color: #9B51E0;
+}
+.botao_apresentacao{
+    box-shadow: 0 0 5px #9B51E0,
+    0 0 25px #9B51E0;
+    background-color: #9B51E0;
+    border: solid #9B51E0;
+    margin-top: 30px;
+    color: white;
+    padding: 10px;
+    font-family: Ghotam Black;
+    font-weight: 900;
+    font-size: 20px;
+}
+.botao_apresentacao:hover{
+    box-shadow: 0 0 5px #9B51E0,
+    0 0 25px #9B51E0, 0 0 50px #9B51E0,
+    0 0 100px #9B51E0, 0 0 200px #9B51E0;
+}
+/* fim da primeira parte */ 
+/* comeco dos meus servicos*/ 
+.servicos{
+    margin-top: 300px;
+    margin-left: 800px;
+    color: white;
+    font-size: 30px;
+    font-family: Ghotam;
+}
+.Meus_Servicos{
+    display: flex;
+    width: 1500px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+.titulo_servicos{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 150.6%;
+}
+.imagem_servicos{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.texto_servicos{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.bloco_servicos{
+    width: 450px;
+    height: 400px;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 50px;
+}
+/* fim dos meus servicos*/ 
+/* comeco dos meus projetos*/ 
+.projetos{
+    margin-top: 300px;
+    margin-left: 850px;
+    color: white;
+    font-size: 30px;
+    font-family: Ghotam;
+}
+.Meus_projetos{
+    display: flex;
+    width: 1500px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.bloco_projetos{
+    width: 450px;
+    height: 650px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 50px;
+}
+.titulo_projetos{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.texto_projetos{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.botao_projetos{
+    box-shadow: 0 0 5px #9B51E0,
+    0 0 25px #9B51E0;
+    background-color: #9B51E0;
+    border: solid #9B51E0;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: Ghotam Black;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    width: 100px;
+    height: 60px;
+}
+.botao_projetos:hover{
+    box-shadow: 0 0 5px #9B51E0,
+    0 0 25px #9B51E0, 0 0 50px #9B51E0,
+    0 0 100px #9B51E0, 0 0 200px #9B51E0;
+}
+.imagem_projetos{
+    margin-top: 20px;
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+}
+/* fim dos meus projetos*/ 
+/* comeco dos meus recomendacao*/ 
+.Recomendacoes{
+    margin-top: 200px;
+    margin-left: 750px;
+    color: white;
+    font-size: 30px;
+    font-family: Ghotam;
+}
+.minhas_Recomendacoes{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    width: 1500px;
+    height: 700px;
+    margin-left: 175px;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+.bloco_recomendacao{
+    width: 450px;
+    height: 650px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 30px;
+
+}
+.titulo_recomendacao_div{
+    width: 400px;
+    height: 150px;
+    text-align: left;
+    margin-left: 30px;
+}
+.titulo_recomendacao{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -30px;
+}
+.texto_recomendacao_div{
+    width: 400px;
+    height: 330px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.texto_recomendacao{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+.perfil_recomendacao{
+    display:flex;
+    width: 400px;
+    height: 120px;
+}
+.imagem_recomendacao_usu{
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 70px;
+    height: 65px;
+    border-radius: 50%;
+}
+.dados_usu_recomendacao{
+    text-align: left;
+}
+.estrelas{
+    width: 100px;
+    height: 70px;
+}
+.titulo_recomendacao1{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+.texto_recomendacao1{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+/* fim dos meus recomendacao*/ 
+/* comeco dos meus educacao*/ 
+.educacao{
+    margin-top: 200px;
+    margin-left: 800px;
+    color: white;
+    font-size: 30px;
+    font-family: Ghotam;
+}
+.minha_educacao{
+    width: 1500px;
+    height: 850px;
+    background-color: white;
+    margin-left: 175px;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+.bloco_educacao{
+    margin-top: 35px;
+    width: 1200px;
+    height: 200px;
+    margin-left: 100px;
+}
+.titulo_educacao{
+    color:#9B51E0;
+    font-size: 25px;
+    text-align: left;
+    margin-top: -30px;
+}
+.texto_educacao{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+/* fim dos meus educacao*/ 
+/* comeco dos meus experiencia*/ 
+.Experiência{
+    margin-top: 200px;
+    margin-left: 800px;
+    color: white;
+    font-size: 30px;
+    font-family: Ghotam;
+}
+.minha_Experiência{
+    width: 1500px;
+    height: 850px;
+    background-color: white;
+    margin-left: 175px;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+.bloco_Experiência{
+    margin-top: 35px;
+    width: 1200px;
+    height: 200px;
+    margin-left: 100px;
+}
+.titulo_Experiência{
+    color:#9B51E0;
+    font-size: 25px;
+    text-align: left;
+    margin-top: -30px;
+}
+/* fim dos meus experiencia*/ 
+/* comeco dos meus contatos*/ 
+.contatos{
+    margin-top: 200px;
+    margin-left: 800px;
+    color: white;
+    font-size: 30px;
+    font-family: Ghotam;
+}
+.Meus_contatos{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    margin-left: 600px;
+    margin-top: 200px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+.imagem_contato{
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #9B51E0;
+}
+.titulo_contato{
+    color:#9B51E0;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left:20px;
+}
+.texto_contato{
+    color: black;
+    font-size: 20px;
+    text-align:right;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.dados_contato{
+    display: flex;
+}
